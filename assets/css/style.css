@@ -392,8 +392,7 @@ form .btn {
   color: var(--green);
 }
 
-.blogs .icon a i {
-  font-size: 1.4rem;
+.blogs .icon a {
   padding-right: .5rem;
   color: var(--green);
 }
@@ -409,6 +408,38 @@ form .btn {
   font-size: 1.5rem;
   line-height: 1.8;
   padding: 1rem 0;
+}
+
+footer .box h2 {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+footer .box a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem 0;  
+  padding-right: .5rem;
+  color: var(--green);
+}
+
+footer span {
+  color: var(--light-color);
+}
+
+.credit {
+  padding: 1rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--light-color);
+  border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.credit a {
+  color: var(--green);
 }
 
 @media (max-width: 991px) {
