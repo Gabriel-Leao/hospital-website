@@ -218,6 +218,13 @@ header {
   line-height: 2;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
