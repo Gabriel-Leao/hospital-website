@@ -189,7 +189,7 @@ header {
 
 .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
@@ -354,6 +354,61 @@ form .btn {
   height: 25rem;
   width: 120%;
   z-index: -1;
+}
+
+.blogs .image {
+  height: 20rem;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+
+.blogs .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blogs .box:hover .image img {
+  transform: scale(1.2);
+}
+
+.blogs .content {
+  padding: 1rem;
+}
+
+.blogs .icon {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blogs .icon a {
+  font-size: 1.4rem;
+  color: var(--light-color);
+}
+
+.blogs .icon a:hover {
+  color: var(--green);
+}
+
+.blogs .icon a i {
+  font-size: 1.4rem;
+  padding-right: .5rem;
+  color: var(--green);
+}
+
+.blogs .content h2 {
+  text-shadow: none;
+  color: var(--black);
+  font-size: 2rem;
+}
+
+.blogs .content p {
+  color: var(--light-color);
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 1rem 0;
 }
 
 @media (max-width: 991px) {
