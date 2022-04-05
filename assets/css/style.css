@@ -309,6 +309,53 @@ form .btn {
   padding: 1rem 4rem;
 }
 
+.review .box {
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.review .box img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: .5rem solid #fff;
+}
+
+.review h2 {
+  color: #fff;
+  font-size: 2.2rem;
+  padding: .5rem 0;
+}
+
+.review p {
+  color: var(--light-color);
+  line-height: 1.8;
+  font-size: 1.6rem;
+  padding-top: 4rem;
+}
+
+.stars i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.review .box::before {
+  content: '';
+  position: absolute;
+  top: -4rem; left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--green);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 25rem;
+  width: 120%;
+  z-index: -1;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
